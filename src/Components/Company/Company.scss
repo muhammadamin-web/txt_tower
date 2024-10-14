@@ -1,0 +1,237 @@
+.company {
+    background: #f6f6f4;
+    padding: 80px 0;
+
+    @include media (1200px) {
+        padding: 40px 0;
+    }
+
+    @include media (1000px) {
+        padding: 20px 0;
+    }
+
+    &_box {
+        display: flex;
+        gap: 5%;
+
+        @include media(1330px) {
+            gap: 3%;
+        }
+
+        @include media (700px) {
+            flex-direction: column;
+            row-gap: 16px;
+        }
+    }
+
+    &_card {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 56px;
+
+        @include media(1330px) {
+            width: 47%;
+            row-gap: 45px;
+        }
+
+        @include media(1000px) {
+            row-gap: 40px;
+        }
+
+        @include media(800px) {
+            row-gap: 32px;
+        }
+
+        @include media (700px) {
+            width: 100%;
+        }
+
+        &_top {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+        }
+
+        &_bottom {
+            display: flex;
+            column-gap: 97px;
+
+            @include media(1200px) {
+                column-gap: 80px;
+            }
+
+            @include media(1200px) {
+                column-gap: 45px;
+            }
+
+            @include media(800px) {
+                column-gap: 35px;
+            }
+
+            &_numbers {
+                h3 {
+                    font-family: "Golos Text", sans-serif;
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 56px;
+                    text-align: left;
+                    color: #1b3836;
+                    position: relative;
+
+                    @include media(1400px) {
+                        font-size: 40px;
+                        line-height: 50px;
+                    }
+
+                    @include media(1200px) {
+                        font-size: 35px;
+                        line-height: 45px;
+                    }
+
+                    @include media(1000px) {
+                        font-size: 30px;
+                        line-height: 40px;
+                    }
+
+                    @include media(800px) {
+                        font-size: 24px;
+                        line-height: 32px;
+                    }
+
+                    span {
+                        position: absolute;
+                        font-size: 24px;
+                        top: -10px;
+                        font-weight: 800;
+
+                        @include media(1400px) {
+                            font-size: 20px;
+                        }
+
+                        @include media(1200px) {
+                            font-size: 16px;
+                        }
+
+                        @include media(1000px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                p {
+                    font-family: "Golos Text", sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: #000;
+
+                    @include media(1200px) {
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+
+                    @include media(1000px) {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    &_title {
+        font-family: "Golos Text", sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 56px;
+        text-align: left;
+
+        @include media(1200px) {
+            font-size: 35px;
+            line-height: 48px;
+        }
+
+        @include media(1000px) {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        @include media(800px) {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+    &_text {
+        font-family: "Golos Text", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #505050;
+        max-width: 686px;
+        width: 100%;
+        @include media(1200px) {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        @include media(1000px) {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        a{
+            font-weight: 600;
+            color: #000;
+        }
+    }
+
+    &_card_img {
+        width: 50%;
+        @include media (700px) {
+            width: 100%;
+        }
+    }
+
+    &_img {
+        width: 100%;
+        // transform: scaleX(-1);
+        border-radius: 16px;
+        border-top-left-radius: 280px;
+        object-fit: cover;
+        object-position: right;
+        height: 560px;
+
+        @include media(1425px) {
+            height: 100%;
+        }
+
+        @include media(1200px) {
+            border-top-left-radius: 240px;
+        }
+
+        @include media(1000px) {
+            border-radius: 14px;
+            border-top-left-radius: 200px;
+        }
+
+        @include media(800px) {
+            border-radius: 12px;
+            border-top-left-radius: 150px;
+        }
+
+        @include media (700px) {
+            border-top-left-radius: 240px;
+        }
+
+        @include media (600px) {
+            border-radius: 8px;
+            height: 250px;
+            border-top-left-radius: 100px;
+        }
+
+
+    }
+}
