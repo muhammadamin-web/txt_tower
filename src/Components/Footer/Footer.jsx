@@ -33,8 +33,7 @@ const Footer = () => {
                 Sotuv bo‘limi
               </div>
               <p className="footer_location_text">
-              Andijon viloyati Andijon shahri <br />
-              Katta Nayman koʻchasi
+              Jizzax viloyati Jizzax shahri <br /> Sharof Rashidov ko’chasi
               </p>
             </div>
             <div className="footer_social">
