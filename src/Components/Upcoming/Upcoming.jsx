@@ -52,10 +52,10 @@ const Upcoming = ({ images }) => {
                           className="slidet_text"
                           key={`navimage${index + 1}`}
                         >
-                       TXT Tower — qulay va shinam shahar hayoti uchun mukammal tanlov!
+                          TXT Tower — qulay va shinam shahar hayoti uchun mukammal tanlov!
                         </h3>
                         <p className="slidet_text2">
-                        TXT TOWER — TXT Group kompaniyasi tomonidan Jizzax shahrida barpo etilayotgan koʻp qavatli, komfort toifadagi turar-joy majmuasi.
+                          TXT TOWER — TXT Group kompaniyasi tomonidan Jizzax shahrida barpo etilayotgan koʻp qavatli, komfort toifadagi turar-joy majmuasi.
                         </p>
                       </div>
                       <div className="upcoming_icon2_card">
