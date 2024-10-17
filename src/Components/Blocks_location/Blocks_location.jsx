@@ -13,7 +13,7 @@ const Blocks_location = () => {
             />
             <div className="blocks_location_map_text">
               <p className="blocks_location_map_text_text">
-                  TXT Tower — Andijonda qadimiy va zamonaviy meʼmorchilik
+                  TXT Tower — Jizzax qadimiy va zamonaviy meʼmorchilik
                 yechimlarini birlashtirgan holda qurilayotgan loyiha.{" "}
               </p>
               {/* <p className="blocks_location_map_text_text2">Xaritada ko‘rish</p> */}
@@ -23,7 +23,7 @@ const Blocks_location = () => {
           <div className="blocks_location_card_text">
             <h2 className="blocks_location_title">Majmua arxitekturasi</h2>
             <p className="blocks_location_text">
-                TXT Tower turar-joy majmuasi Andijon shahridagi zamonaviy
+                TXT Tower turar-joy majmuasi Jizzax shahridagi zamonaviy
               meʼmorchilik moʻjizasi sifatida ajralib turadi. Loyiha noyob
               arxitektura yechimlari bilan boyitilgan.{" "}
             </p>
